@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F49141C6-9714-4E9F-A184-7858C166EE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{BB073420-B2D9-4941-8ED7-ECEE9F6181D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4F17BED1-51D6-4AF5-8D17-7E4F87B6CAE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartupArchitecture.API", "src\Services\StartupArchitecture.API\StartupArchitecture.API.csproj", "{FB2FBBFB-1DC2-4FAE-8FB4-9EC38F23177F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartupArchitecture.FirstInregration", "src\Integrations\StartupArchitecture.FirstInregration\StartupArchitecture.FirstInregration.csproj", "{A2995295-1B83-496B-98EE-123B3B1FF0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartupArchitecture.SecondInregration", "src\Integrations\StartupArchitecture.SecondInregration\StartupArchitecture.SecondInregration.csproj", "{CB382BAA-D91E-484E-A7C0-178F207BAA80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2FBBFB-1DC2-4FAE-8FB4-9EC38F23177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2FBBFB-1DC2-4FAE-8FB4-9EC38F23177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2FBBFB-1DC2-4FAE-8FB4-9EC38F23177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2FBBFB-1DC2-4FAE-8FB4-9EC38F23177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2995295-1B83-496B-98EE-123B3B1FF0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2995295-1B83-496B-98EE-123B3B1FF0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2995295-1B83-496B-98EE-123B3B1FF0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2995295-1B83-496B-98EE-123B3B1FF0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB382BAA-D91E-484E-A7C0-178F207BAA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB382BAA-D91E-484E-A7C0-178F207BAA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB382BAA-D91E-484E-A7C0-178F207BAA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB382BAA-D91E-484E-A7C0-178F207BAA80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB073420-B2D9-4941-8ED7-ECEE9F6181D5} = {F49141C6-9714-4E9F-A184-7858C166EE0D}
+		{4F17BED1-51D6-4AF5-8D17-7E4F87B6CAE2} = {F49141C6-9714-4E9F-A184-7858C166EE0D}
+		{FB2FBBFB-1DC2-4FAE-8FB4-9EC38F23177F} = {4F17BED1-51D6-4AF5-8D17-7E4F87B6CAE2}
+		{A2995295-1B83-496B-98EE-123B3B1FF0BC} = {BB073420-B2D9-4941-8ED7-ECEE9F6181D5}
+		{CB382BAA-D91E-484E-A7C0-178F207BAA80} = {BB073420-B2D9-4941-8ED7-ECEE9F6181D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A320E56-0319-4EF5-9096-22DF30E78A1E}
+	EndGlobalSection
+EndGlobal
